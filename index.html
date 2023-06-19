@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon_automatizar.png">
+    <title>pag1</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="medias.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Integrantes da Um-Zero</h1>
+        <span id="menu" class="material-icons" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="item">
+            <ul>
+                <li><a href="camila.html">Camila dos Santos Gomes Barboza</a></li>
+                <li><a href="torres.html">Gabriel Torres de Lara Pires</a> </li>
+                <li><a href="thiago.html">Thiago Bezerra de Carvalho </a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Sub</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero nobis, obcaecati maiores quod ipsam
+                eligendi magni,
+                earum doloremque a sed porro vel, similique aut veritatis ullam reprehenderit. Ipsa, et inventore?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (item.style.display == "block"){
+                item.style.display = "none"
+            }else{
+                item.style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>
