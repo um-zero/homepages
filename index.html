@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/medias.css">
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
 
     <header>
         <h1>Integrantes da Um-Zero</h1>
@@ -34,6 +34,15 @@
         </article>
     </main>
     <script>
+
+
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                item.style.display = "block"
+            }else{
+                item.style.display = "none"
+            }
+        }
         function clickMenu() {
             if (item.style.display == "block") {
                 item.style.display = "none"
