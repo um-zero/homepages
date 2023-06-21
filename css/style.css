@@ -68,6 +68,7 @@ main {
 
 article>h2 {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 article>p {
@@ -76,8 +77,13 @@ article>p {
     text-indent: 20px;
 }
 
-img#estatura {
-    height: 30%;
+img.estatura {
+    height: 0%;
     width: 30%;
     border-radius: 10%;
+}
+article>div{
+    display: flex;
+    background-color: violet;
+    justify-content: center;
 }
