@@ -1,3 +1,65 @@
-body{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    background-image: url(../img/mountain_thigas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thiago {
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFDDE2;
+    margin: 1%;
+    border-radius: 10%;
+}
+
+main>h2 {
+    display: flex;
+    background-color: #FF8CC6;
+    color: #FFFFFF;
+    width: 17%;
+    margin-left: 1%;
+    border-top-right-radius: 30%;
+}
+
+main>img {
+    max-width: 15%;
+    border-radius: 15%;
+
+}
+
+main.thiago>div.redes>a>img {
+    display: flex;
+    width: 5%;
+}
+
+div.print>section>img {
+    display: inline;
+    width: 25%;
+    border-radius: 10%;
+    padding: 1%;
+
+}
+footer>img{
+    text-align: center;
+    width: 3%;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    background-color: #DE369D;
+}
+main.thiago>div.redes{
+    background-color: yellowgreen;
+    margin-top: 60px;
+    margin-right: 6px;
+    width: 50%;
+    height: 10%;
+    flex-direction: column;
+    
 }
