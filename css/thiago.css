@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
-
 * {
     font-family: 'Jost', sans-serif;
 }
@@ -18,19 +17,18 @@ body {
     border-radius: 10%;
 }
 
-main>h2 {
+h2 {
     display: flex;
     background-color: #FF8CC6;
     color: #FFFFFF;
-    width: 17%;
-    margin-left: 1%;
-    border-top-right-radius: 30%;
+    width: 20%;
+    border-radius: 10%;
+    text-align: center;
 }
 
 main>img {
     max-width: 15%;
     border-radius: 15%;
-
 }
 
 main.thiago>div.redes>a>img {
@@ -43,23 +41,37 @@ div.print>section>img {
     width: 25%;
     border-radius: 10%;
     padding: 1%;
-
 }
-footer>img{
+
+footer>img {
     text-align: center;
     width: 3%;
     border-radius: 50%;
 }
-footer{
+
+footer {
     text-align: center;
     background-color: #DE369D;
 }
-main.thiago>div.redes{
+
+main.thiago>div.redes {
     background-color: yellowgreen;
     margin-top: 60px;
     margin-right: 6px;
     width: 50%;
     height: 10%;
     flex-direction: column;
-    
+}
+
+main>a>img {
+    width: 7%;
+    margin-left: 0%;
+}
+
+.container-2 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 10%;
+    display: flex;
 }
