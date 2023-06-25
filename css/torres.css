@@ -1,0 +1,70 @@
+
+html, body{
+    background-color:#F1F6F9;
+    margin: 0;
+    padding: 0;
+}
+
+#voltar {
+    background-color: #212A3E;
+    border-top: 5px solid #212A3E;
+    border-right: 20px solid #212A3E;
+    border-bottom: 5px solid #212A3E;
+    border-left: 20px solid #212A3E;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 40px;
+    color: #F1F6F9;
+    
+  }
+  
+
+.container {
+    margin-top: 50PX;
+    background-color: #394867;
+    border: 30px solid #394867;
+    overflow: hidden;
+}
+img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#titulosobremim{
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F1F6F9;
+}
+#textosobremim{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #F1F6F9;
+    margin-right: 16%;
+}
+.container-2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+  }
+  .container-2 div {
+    flex: 1;
+    height: 20%;
+  }
+  .rodape{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F1F6F9;
+    padding: 1px 1px 1px 1px;
+    background-color: #212A3E;
+    color: #F1F6F9;
+}

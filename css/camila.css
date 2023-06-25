@@ -34,7 +34,6 @@ img{
 #titulosobremim{
     font-size: 34px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: underline;
     color: #9EF8EE;
 }
 #textosobremim{
@@ -55,7 +54,3 @@ img{
     flex: 1;
     height: 20%;
   }
-
-.titulos{
-    text-decoration: underline;
-}
