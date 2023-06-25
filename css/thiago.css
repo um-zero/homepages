@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 * {
     font-family: 'Jost', sans-serif;
+
+}
+
+#voltar{
+    color: #FF8CC6;
+    background-color: aliceblue;
+    border-top: 5px solid aliceblue;
+    border-bottom: 5px solid aliceblue;
+}
+#fa {
+    margin-left: 40%;
 }
 
 body {
